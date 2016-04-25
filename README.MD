@@ -7,6 +7,10 @@ Demo for running a sum function in Gemfire.
 `$ mvn clean package`
 
 Two jar files are generated. Deploy the file **gfsumdemo-1.0-SNAPSHOT-domain.jar** to the gemfire cache. 
+
+ 
+Before run the application make sure you have the function ***https://github.com/caxqueiroz/gf-sum-func*** deployed to Gemfire cluster. 
+ 
  
  ### Run
  
