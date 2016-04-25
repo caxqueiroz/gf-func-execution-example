@@ -25,7 +25,9 @@ public class DemoConfig {
     ClientCache clientCache(){
         ClientCache cache = new ClientCacheFactory()
                 .addPoolLocator(locatorAddress, locatorPort)
+                .set("log-level","error")
                 .create();
+
         return cache;
     }
 
